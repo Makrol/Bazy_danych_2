@@ -1,0 +1,1001 @@
+id_ulicy,nazwa
+1,Raven
+2,Ohio
+3,Calypso
+4,Nova
+5,Schurz
+6,Butternut
+7,Mariners Cove
+8,Merchant
+9,Kinsman
+10,Lakewood Gardens
+11,Mcbride
+12,Larry
+13,David
+14,Luster
+15,Wayridge
+16,Fulton
+17,Vera
+18,Dexter
+19,Brickson Park
+20,Summit
+21,Barnett
+22,Ronald Regan
+23,Chive
+24,Sunfield
+25,Summer Ridge
+26,Valley Edge
+27,Dunning
+28,Warbler
+29,Sycamore
+30,Lien
+31,Nova
+32,Jackson
+33,Calypso
+34,Monica
+35,Evergreen
+36,West
+37,Lake View
+38,Vidon
+39,Westerfield
+40,Comanche
+41,Novick
+42,Cottonwood
+43,Springs
+44,Lunder
+45,Stephen
+46,Fremont
+47,Aberg
+48,Vernon
+49,Dovetail
+50,Brentwood
+51,Mesta
+52,West
+53,Tennessee
+54,Ramsey
+55,Bunker Hill
+56,Holmberg
+57,Green
+58,Pond
+59,Browning
+60,Derek
+61,Loftsgordon
+62,Nobel
+63,Hayes
+64,Loeprich
+65,Eagan
+66,Texas
+67,Hoepker
+68,Bluejay
+69,Havey
+70,Village Green
+71,Monterey
+72,Tennyson
+73,Trailsway
+74,Clyde Gallagher
+75,Acker
+76,Monument
+77,Havey
+78,American
+79,Jenifer
+80,West
+81,Blackbird
+82,Mitchell
+83,Monica
+84,Veith
+85,Lillian
+86,New Castle
+87,Oxford
+88,Ruskin
+89,Schiller
+90,Eastlawn
+91,Chive
+92,Grayhawk
+93,Amoth
+94,Schurz
+95,Moland
+96,Westend
+97,Moland
+98,Parkside
+99,Hoepker
+100,Carioca
+101,New Castle
+102,Sauthoff
+103,Grover
+104,Hermina
+105,Gateway
+106,Memorial
+107,Fulton
+108,Brickson Park
+109,Maple Wood
+110,Cambridge
+111,Muir
+112,Steensland
+113,Kings
+114,Maple
+115,Upham
+116,Pearson
+117,Utah
+118,Ridge Oak
+119,Novick
+120,New Castle
+121,Northwestern
+122,Cardinal
+123,1st
+124,Garrison
+125,Crownhardt
+126,Transport
+127,Pond
+128,Stuart
+129,Memorial
+130,Myrtle
+131,Buena Vista
+132,Delladonna
+133,Talisman
+134,Gateway
+135,Swallow
+136,Sheridan
+137,Sherman
+138,Ronald Regan
+139,Kenwood
+140,North
+141,Meadow Vale
+142,Westend
+143,Sundown
+144,Duke
+145,Drewry
+146,International
+147,Westend
+148,East
+149,Sloan
+150,Shelley
+151,Golf
+152,Blackbird
+153,Ronald Regan
+154,Raven
+155,Prairieview
+156,Helena
+157,Utah
+158,Di Loreto
+159,Anthes
+160,Warbler
+161,Bowman
+162,Sullivan
+163,Magdeline
+164,Anniversary
+165,Lukken
+166,Morrow
+167,Oxford
+168,Kingsford
+169,Main
+170,Hanover
+171,American
+172,Chinook
+173,Nova
+174,Memorial
+175,Sunbrook
+176,Mockingbird
+177,Mcbride
+178,Utah
+179,Morningstar
+180,Schiller
+181,Hoffman
+182,Vernon
+183,Bultman
+184,Blue Bill Park
+185,Anthes
+186,Cascade
+187,Del Mar
+188,Hansons
+189,Fuller
+190,Dottie
+191,Manufacturers
+192,Old Shore
+193,Killdeer
+194,Tennyson
+195,Monterey
+196,Eggendart
+197,John Wall
+198,Waubesa
+199,Moose
+200,High Crossing
+201,Hintze
+202,Hermina
+203,Rusk
+204,Caliangt
+205,Oak Valley
+206,Forest Run
+207,Clyde Gallagher
+208,Dayton
+209,Daystar
+210,Hoepker
+211,Bay
+212,School
+213,Lien
+214,Florence
+215,5th
+216,Northland
+217,Mockingbird
+218,Barnett
+219,Lunder
+220,Tennyson
+221,Moose
+222,Namekagon
+223,Melvin
+224,Columbus
+225,Marquette
+226,Thierer
+227,Holmberg
+228,Corry
+229,Chive
+230,5th
+231,International
+232,Muir
+233,Merrick
+234,Prairieview
+235,Crescent Oaks
+236,Sunbrook
+237,Sunnyside
+238,Oakridge
+239,Warrior
+240,Delladonna
+241,Pond
+242,Nova
+243,Buhler
+244,Marquette
+245,Haas
+246,Comanche
+247,Westport
+248,Di Loreto
+249,Schurz
+250,Manufacturers
+251,Brentwood
+252,Shasta
+253,Miller
+254,Nobel
+255,Corben
+256,Boyd
+257,Dapin
+258,Crest Line
+259,Sauthoff
+260,Butterfield
+261,Summer Ridge
+262,Fuller
+263,Crownhardt
+264,6th
+265,Kropf
+266,Oxford
+267,Troy
+268,Brickson Park
+269,Truax
+270,Crescent Oaks
+271,Arrowood
+272,Warner
+273,Harper
+274,Bunting
+275,Cottonwood
+276,Menomonie
+277,Carberry
+278,Green Ridge
+279,Delladonna
+280,Sheridan
+281,American Ash
+282,Melody
+283,7th
+284,Red Cloud
+285,Park Meadow
+286,Bonner
+287,Elka
+288,Magdeline
+289,Petterle
+290,Amoth
+291,Parkside
+292,Clove
+293,La Follette
+294,Old Gate
+295,Green Ridge
+296,Westridge
+297,Ridgeway
+298,Ilene
+299,Cordelia
+300,Myrtle
+301,Elmside
+302,Spaight
+303,Starling
+304,Claremont
+305,Sunbrook
+306,Kim
+307,Elgar
+308,Saint Paul
+309,Emmet
+310,Forest Run
+311,Clarendon
+312,Mifflin
+313,Meadow Vale
+314,Miller
+315,Columbus
+316,Melvin
+317,Namekagon
+318,Dorton
+319,Sundown
+320,Barby
+321,Mallory
+322,Vahlen
+323,Arkansas
+324,Kim
+325,Elgar
+326,Pepper Wood
+327,4th
+328,Summit
+329,Warbler
+330,Hooker
+331,Merry
+332,Nevada
+333,Lakeland
+334,Iowa
+335,Dennis
+336,Sheridan
+337,Walton
+338,Haas
+339,5th
+340,Steensland
+341,Shoshone
+342,Messerschmidt
+343,Meadow Vale
+344,Morrow
+345,Sherman
+346,1st
+347,Forest Dale
+348,4th
+349,Burrows
+350,Oxford
+351,Ludington
+352,Northwestern
+353,Del Mar
+354,Laurel
+355,Valley Edge
+356,Old Shore
+357,Alpine
+358,Leroy
+359,Dennis
+360,Rowland
+361,Hudson
+362,Northridge
+363,Upham
+364,Village
+365,Hudson
+366,Clyde Gallagher
+367,Sunnyside
+368,Graedel
+369,Rusk
+370,Village Green
+371,Manufacturers
+372,Pennsylvania
+373,Emmet
+374,Sloan
+375,Cardinal
+376,Meadow Ridge
+377,Kings
+378,Vermont
+379,Farmco
+380,Daystar
+381,Comanche
+382,Dryden
+383,Thierer
+384,Summerview
+385,Pankratz
+386,Rieder
+387,Sauthoff
+388,John Wall
+389,Menomonie
+390,Bay
+391,Scofield
+392,Oak
+393,Calypso
+394,Ramsey
+395,Jenifer
+396,Westerfield
+397,Green
+398,Division
+399,Dottie
+400,Weeping Birch
+401,Superior
+402,Maple
+403,Springs
+404,Forest Run
+405,Duke
+406,Manitowish
+407,Rutledge
+408,West
+409,Cordelia
+410,Debs
+411,Gerald
+412,Rutledge
+413,Memorial
+414,Hanover
+415,Oneill
+416,Manley
+417,Lerdahl
+418,Fisk
+419,Havey
+420,Heath
+421,Norway Maple
+422,Autumn Leaf
+423,Scoville
+424,Marquette
+425,Roxbury
+426,Myrtle
+427,Village Green
+428,Scott
+429,Valley Edge
+430,Raven
+431,Shasta
+432,Orin
+433,Ridgeview
+434,Hanover
+435,Eastlawn
+436,New Castle
+437,Jenifer
+438,Bashford
+439,Artisan
+440,Kingsford
+441,Manufacturers
+442,Summerview
+443,Arizona
+444,Muir
+445,Linden
+446,Mariners Cove
+447,Bobwhite
+448,Anzinger
+449,Mayfield
+450,Anhalt
+451,Lukken
+452,Sunbrook
+453,Forest Run
+454,Quincy
+455,Mendota
+456,Mandrake
+457,Becker
+458,Fairview
+459,Porter
+460,Kingsford
+461,Summerview
+462,Gale
+463,Lunder
+464,Westport
+465,Stephen
+466,Ruskin
+467,4th
+468,Scott
+469,Fuller
+470,Londonderry
+471,Michigan
+472,Bluejay
+473,New Castle
+474,Linden
+475,Crownhardt
+476,Grover
+477,Ridgeway
+478,Golf Course
+479,Coleman
+480,Lindbergh
+481,Arapahoe
+482,Waywood
+483,Mariners Cove
+484,Shoshone
+485,Little Fleur
+486,Surrey
+487,Golf Course
+488,Westridge
+489,Spohn
+490,Sachtjen
+491,Sloan
+492,Sunfield
+493,Susan
+494,Little Fleur
+495,Emmet
+496,Sunnyside
+497,Kings
+498,Annamark
+499,Birchwood
+500,Old Shore
+501,Blue Bill Park
+502,Butternut
+503,Golf View
+504,Briar Crest
+505,Shelley
+506,Acker
+507,Quincy
+508,Declaration
+509,Fuller
+510,Ramsey
+511,Westerfield
+512,Carey
+513,Loomis
+514,Blaine
+515,Dovetail
+516,Hudson
+517,Thompson
+518,Fulton
+519,Vernon
+520,Tony
+521,Morningstar
+522,Saint Paul
+523,Sommers
+524,Mendota
+525,Monument
+526,Orin
+527,Aberg
+528,Walton
+529,Bellgrove
+530,Doe Crossing
+531,5th
+532,John Wall
+533,Carioca
+534,6th
+535,Banding
+536,Magdeline
+537,Talmadge
+538,Bay
+539,Reindahl
+540,Shasta
+541,Blaine
+542,Schiller
+543,Manufacturers
+544,Springview
+545,New Castle
+546,Briar Crest
+547,Arrowood
+548,Artisan
+549,Carioca
+550,Twin Pines
+551,Westend
+552,West
+553,Pepper Wood
+554,Pawling
+555,Hayes
+556,Pond
+557,Kennedy
+558,Oak Valley
+559,Butterfield
+560,Holmberg
+561,Carey
+562,Waxwing
+563,Superior
+564,Division
+565,Fairfield
+566,Washington
+567,Monument
+568,Muir
+569,Union
+570,Merry
+571,Warrior
+572,Melvin
+573,Commercial
+574,Sheridan
+575,Ruskin
+576,Gulseth
+577,Nobel
+578,Twin Pines
+579,Jenna
+580,Thackeray
+581,Utah
+582,Montana
+583,Briar Crest
+584,Porter
+585,Summer Ridge
+586,Coleman
+587,Barby
+588,Express
+589,Old Gate
+590,Oneill
+591,Homewood
+592,Golf Course
+593,Ohio
+594,Brentwood
+595,International
+596,Prairie Rose
+597,Hauk
+598,New Castle
+599,Briar Crest
+600,2nd
+601,Memorial
+602,Vernon
+603,Hollow Ridge
+604,Sunnyside
+605,Brown
+606,Becker
+607,Arkansas
+608,Nelson
+609,Derek
+610,Westend
+611,Golden Leaf
+612,Toban
+613,Packers
+614,Summer Ridge
+615,Union
+616,Autumn Leaf
+617,Petterle
+618,Stang
+619,Moose
+620,Homewood
+621,Ohio
+622,Sauthoff
+623,Moland
+624,Tennessee
+625,Clove
+626,Anhalt
+627,Northwestern
+628,Barby
+629,Garrison
+630,Sunnyside
+631,Di Loreto
+632,Westend
+633,Judy
+634,Clove
+635,Dapin
+636,Towne
+637,Banding
+638,Garrison
+639,South
+640,Northview
+641,Loomis
+642,Bartelt
+643,Lakewood Gardens
+644,West
+645,Clove
+646,East
+647,Loeprich
+648,Onsgard
+649,Corry
+650,Haas
+651,Leroy
+652,Pierstorff
+653,Washington
+654,Golden Leaf
+655,Dexter
+656,Milwaukee
+657,Canary
+658,Welch
+659,Carey
+660,Village
+661,Mayfield
+662,Fair Oaks
+663,Carioca
+664,Everett
+665,Maywood
+666,Hallows
+667,Nova
+668,3rd
+669,Springs
+670,Waubesa
+671,Pond
+672,Sullivan
+673,Fieldstone
+674,Twin Pines
+675,Pawling
+676,Tony
+677,Duke
+678,Magdeline
+679,Marcy
+680,Stoughton
+681,Cordelia
+682,Schlimgen
+683,Lyons
+684,American Ash
+685,Waywood
+686,Rowland
+687,Caliangt
+688,International
+689,Nelson
+690,Barby
+691,Miller
+692,Northport
+693,Bayside
+694,Monica
+695,Algoma
+696,Dennis
+697,Kedzie
+698,Superior
+699,Mayfield
+700,Sutteridge
+701,Dennis
+702,Fulton
+703,Barby
+704,Shopko
+705,Myrtle
+706,Dorton
+707,Forest Dale
+708,Sheridan
+709,Rieder
+710,Portage
+711,Mcbride
+712,Eagle Crest
+713,Tony
+714,Prentice
+715,Mallory
+716,Twin Pines
+717,Fairview
+718,Old Gate
+719,Talisman
+720,Manufacturers
+721,Kim
+722,Redwing
+723,Michigan
+724,Dovetail
+725,Red Cloud
+726,Evergreen
+727,Fairfield
+728,Colorado
+729,Monica
+730,Muir
+731,Ryan
+732,Monument
+733,Morning
+734,Buhler
+735,Dakota
+736,Ridgeview
+737,Monica
+738,Almo
+739,Straubel
+740,Karstens
+741,Old Shore
+742,Tony
+743,Del Sol
+744,Merry
+745,Farmco
+746,Northridge
+747,Green
+748,Bellgrove
+749,Vidon
+750,Fairfield
+751,Moulton
+752,Bayside
+753,Burning Wood
+754,Truax
+755,Sullivan
+756,Melody
+757,Warbler
+758,Mallory
+759,Oxford
+760,Susan
+761,Graedel
+762,Del Sol
+763,Rutledge
+764,Laurel
+765,Jana
+766,Red Cloud
+767,Transport
+768,Barby
+769,Buell
+770,Hanson
+771,Mifflin
+772,Jenna
+773,Loeprich
+774,Stephen
+775,Dixon
+776,Corben
+777,Vidon
+778,Hollow Ridge
+779,Schmedeman
+780,Coleman
+781,Kings
+782,Armistice
+783,Veith
+784,Park Meadow
+785,Kings
+786,Nobel
+787,Quincy
+788,Porter
+789,Evergreen
+790,Village Green
+791,Melby
+792,Paget
+793,Blue Bill Park
+794,Nova
+795,Bunker Hill
+796,Sullivan
+797,Fairfield
+798,Anhalt
+799,Montana
+800,Florence
+801,Scoville
+802,Muir
+803,Merchant
+804,Fuller
+805,Rockefeller
+806,Forest
+807,Di Loreto
+808,Ohio
+809,Service
+810,Evergreen
+811,Raven
+812,Bobwhite
+813,West
+814,Stang
+815,School
+816,Prairieview
+817,Browning
+818,Eliot
+819,Claremont
+820,Hallows
+821,Forest
+822,Scofield
+823,Pearson
+824,Blackbird
+825,American
+826,Dapin
+827,Lakeland
+828,Brown
+829,Bay
+830,Chinook
+831,Delaware
+832,Manitowish
+833,Hayes
+834,East
+835,Arkansas
+836,Goodland
+837,Gerald
+838,Shopko
+839,Jackson
+840,Dennis
+841,Redwing
+842,Fieldstone
+843,Bunker Hill
+844,Fuller
+845,Cordelia
+846,Del Sol
+847,North
+848,Macpherson
+849,Bluestem
+850,Gulseth
+851,Cody
+852,Pierstorff
+853,3rd
+854,Park Meadow
+855,Hoard
+856,Vernon
+857,Laurel
+858,Farmco
+859,Vahlen
+860,Warbler
+861,Tennyson
+862,Tennessee
+863,6th
+864,Northview
+865,Cottonwood
+866,Sunnyside
+867,Bonner
+868,Jenna
+869,Burning Wood
+870,Shasta
+871,Morrow
+872,Melrose
+873,Novick
+874,Hoepker
+875,Stoughton
+876,Sullivan
+877,Mayfield
+878,Bartelt
+879,Sauthoff
+880,Corscot
+881,Bunting
+882,Katie
+883,Corscot
+884,Sheridan
+885,Sommers
+886,Mallard
+887,Fallview
+888,Evergreen
+889,International
+890,Armistice
+891,Hoard
+892,Jackson
+893,Ridge Oak
+894,North
+895,Hayes
+896,Cardinal
+897,Welch
+898,Northview
+899,Marcy
+900,Clemons
+901,Holmberg
+902,Harbort
+903,Sachtjen
+904,Acker
+905,Sheridan
+906,Bowman
+907,Meadow Ridge
+908,Browning
+909,Sullivan
+910,6th
+911,Waxwing
+912,Schurz
+913,Chinook
+914,Sycamore
+915,Logan
+916,High Crossing
+917,Montana
+918,Di Loreto
+919,Goodland
+920,Veith
+921,Grim
+922,Maywood
+923,Fisk
+924,Canary
+925,Morningstar
+926,Morningstar
+927,Paget
+928,Summit
+929,Lighthouse Bay
+930,Havey
+931,Clove
+932,Butterfield
+933,Basil
+934,Maywood
+935,Beilfuss
+936,Linden
+937,Forster
+938,Huxley
+939,Buena Vista
+940,Vermont
+941,Merry
+942,Amoth
+943,Rockefeller
+944,Birchwood
+945,Dapin
+946,Goodland
+947,Hollow Ridge
+948,Cottonwood
+949,Gulseth
+950,Westridge
+951,Mifflin
+952,Cambridge
+953,Transport
+954,Northview
+955,Elmside
+956,Schlimgen
+957,Lakewood Gardens
+958,Haas
+959,Lindbergh
+960,Sage
+961,La Follette
+962,Dixon
+963,Cascade
+964,Corben
+965,Waubesa
+966,Kedzie
+967,Lukken
+968,Manufacturers
+969,Blaine
+970,Meadow Ridge
+971,Stoughton
+972,Haas
+973,Arkansas
+974,Coleman
+975,Judy
+976,Kingsford
+977,Butterfield
+978,Buhler
+979,Northport
+980,Ridgeway
+981,Roth
+982,Hauk
+983,Londonderry
+984,Derek
+985,Menomonie
+986,Golf View
+987,South
+988,Bowman
+989,Stuart
+990,Bunker Hill
+991,Larry
+992,Dunning
+993,Clyde Gallagher
+994,Westport
+995,Briar Crest
+996,Kenwood
+997,Eagan
+998,Stuart
+999,Maple Wood
+1000,Scofield

@@ -1,0 +1,23 @@
+sqlldr system/12345 control='Modele.ctl'
+sqlldr system/12345 control='Marki.ctl'
+sqlldr system/12345 control='Dostawcy.ctl'
+sqlldr system/12345 control='Wojewodztwa.ctl'
+sqlldr system/12345 control='Ulice.ctl'
+sqlldr system/12345 control='Stanowiska.ctl'
+sqlldr system/12345 control='Branze.ctl'
+sqlldr system/12345 control='Przyczyny_zwrotow.ctl'
+sqlldr system/12345 control='Typy_produktow.ctl'
+sqlldr system/12345 control='Produkty.ctl'
+sqlldr system/12345 control='Miasta.ctl'
+sqlldr system/12345 control='Hurtownie.ctl'
+sqlldr system/12345 control='Dostepnosci.ctl'
+sqlldr system/12345 control='Promocje.ctl'
+sqlldr system/12345 control='Dostawy.ctl'
+sqlldr system/12345 control='Pojazdy.ctl'
+sqlldr system/12345 control='Pracownicy.ctl'
+sqlldr system/12345 control='Firmy_kupujace.ctl'
+sqlldr system/12345 control='Sprzedaze.ctl'
+sqlldr system/12345 control='Zwroty.ctl'
+del *.bad
+del *.log
+pause
