@@ -84,7 +84,6 @@ FOREIGN KEY (id_miasta) REFERENCES Miasta(id_miasta)
 );
 CREATE TABLE Dostepnosci(
 id_dostepnosci NUMERIC PRIMARY KEY,
-ilosc NUMERIC,
 id_hurtowni NUMERIC,
 id_produktu NUMERIC,
 FOREIGN KEY (id_hurtowni) REFERENCES Hurtownie(id_hurtowni),
