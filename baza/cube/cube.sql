@@ -6,7 +6,7 @@ sum(pr.cena) Suma
 from sprzedaze sp
 join dostepnosci do
 on sp.id_dostepnosci=do.id_dostepnosci
-join produkty prż
+join produkty pr
 on do.id_produktu=pr.id_produktu
 join firmy_kupujace fk
 on fk.id_firmy_kupujacej=sp.id_firmy_kupujacej
