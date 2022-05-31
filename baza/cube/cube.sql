@@ -5,9 +5,9 @@ select
         Suma
 from (
         select
-        pr.ID_PRODUKTU pr_id,
-        br.ID_BRANZY br_id,
-        sum(pr.cena) Suma
+            pr.ID_PRODUKTU pr_id,
+            br.ID_BRANZY br_id,
+            sum(pr.cena) Suma
         from sprzedaze sp
         join dostepnosci do
         on sp.id_dostepnosci=do.id_dostepnosci
@@ -21,10 +21,10 @@ from (
         cube(br.ID_BRANZY,pr.ID_PRODUKTU)
         order by br.ID_BRANZY,pr.ID_PRODUKTU
      )
-left join BRANZE br
-on br.ID_BRANZY=br_id
-left join PRODUKTY pr
-on pr.ID_PRODUKTU=pr_id;
+    left join BRANZE br
+    on br.ID_BRANZY=br_id
+    left join PRODUKTY pr
+    on pr.ID_PRODUKTU=pr_id;
 
 
 

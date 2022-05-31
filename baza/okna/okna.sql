@@ -1,7 +1,7 @@
 --Okno obrazujące przyrost pienieczy wraz z każdym zakupem w konkretnej hurtowni
 select
     data,
-    hu_id,
+    hu.NAZWA"nazwa hurtowni",
     cena,
     suma_cen
 from (
@@ -24,7 +24,7 @@ on hu.ID_HURTOWNI=hu_id;
 --Okno obrazujące przyrost pieniecz generowanych przez pracowników konkretnych stanowisk z sprzedazy produktów
 
 select
-    st.NAZWA,
+    st.NAZWA"nazwa stanowiska",
     data,
     suma_cen
 from(
@@ -50,7 +50,7 @@ on st.ID_STANOWISKA = st_id;
 
 --Okno obrazujące przyrost środków z sprzedaży produktów w konkretnych województwach
 select
-    wo.NAZWA,
+    wo.NAZWA"nazwa wojewodztwa",
     data,
     suma_cen
 from (

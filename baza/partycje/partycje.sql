@@ -1,15 +1,15 @@
 --Partcja demonstrująca stosunek procentowy pieniędzy wydanych przez firmy w danej branży
 
 select
-    br.NAZWA,
-    fk.ID_FIRMY_KUPUJACEJ,
-    kowta,
+    br.NAZWA"nazwa branzy",
+    fk.NAZWA"nazwa firmy kupujacej",
+    kwota,
     suma_kwot,
     udzial
 from (
     select br.ID_BRANZY br_id,
        fk.ID_FIRMY_KUPUJACEJ fk_id,
-       sum(pr.cena)kowta,
+       sum(pr.cena)kwota,
        sum(sum(pr.cena)) over( partition BY br.ID_BRANZY)suma_kwot,
        Round(100*sum(pr.cena)/sum(sum(pr.cena)) over( partition BY br.ID_BRANZY))udzial
     from sprzedaze sp
@@ -35,8 +35,8 @@ on fk.ID_FIRMY_KUPUJACEJ = fk_id;
 --Partycja demonstrująca jaki wkład ma pracownik pracujący na danymstanowisku w przychodzy wygenerowane przez wszystkich pracowników na tym stanowisku
 
 select
-    st.NAZWA,
-    pra_id,
+    st.NAZWA"nazwa_stanowiska",
+    pra_id"id_pracownika",
     imie,
     nazwisko,
     suma1 "suma z sprzedazy produktow przez pracownika",
@@ -68,8 +68,8 @@ on pra.ID_PRACOWNIKA = pra_id;
 
 --Partycja demonstrująca stosunek sprzedanych produktów danego typu do wszystkich sprzedanych produktów tego typu
 select
-    tp.NAZWA,
-    pr.NAZWA,
+    tp.NAZWA"nazwa typu produktu",
+    pr.NAZWA"nazwa produktu",
     count1 "suma ilosci sprzedanych produktow konkretnego typu",
     suma1 "suma wszystkich produktow danego typu",
     udzial "udzial w %"

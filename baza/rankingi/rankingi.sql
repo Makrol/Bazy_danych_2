@@ -1,6 +1,6 @@
 --Ranking szeregujący typy produktów pod względem najchętniej kupowanych
 select
-    NAZWA,
+    NAZWA"nazwa typu produktu",
     suma_cen,
     ranking
 from (
@@ -31,8 +31,6 @@ select
 from (
         select
             pra.id_pracownika pra_id,
-            --pra.imie,
-            --pra.nazwisko,
             sum(pr.cena)suma_zysku,
             Rank() over(order by sum(pr.cena) desc)ranking
         from sprzedaze sp
@@ -42,7 +40,7 @@ from (
         on do.id_produktu=pr.id_produktu
         join pracownicy pra
         on pra.id_pracownika=sp.id_pracownika
-        group by pra.id_pracownika--,pra.imie,pra.nazwisko
+        group by pra.id_pracownika
      )
 join PRACOWNICY pra
 on pra.ID_PRACOWNIKA = pra_id;
@@ -52,7 +50,7 @@ on pra.ID_PRACOWNIKA = pra_id;
 --Ranking szeregujący województwa pod względem przychodów z sprzedaży w hurtowniach na ich terenie
 
 select
-    wo.NAZWA,
+    wo.NAZWA"nazwa wojewodztwa",
     suma_zysku,
     ranking
 from (

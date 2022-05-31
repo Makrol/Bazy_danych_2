@@ -2,74 +2,59 @@
 INSERT /* +APPEND */ INTO HUR_TYPY_PRODUKTOW (id_typu_produktu, nazwa)
 SELECT * from TYPY_PRODUKTOW;
 
-INSERT /* +APPEND */ INTO HUR_PRODUKTY (ID_PRODUKTU, NAZWA, CENA, ID_TYPU_PRODUKTU)
-SELECT * from PRODUKTY;
+INSERT /* +APPEND */ INTO HUR_PRODUKTY (ID_PRODUKTU, NAZWA, CENA)
+SELECT id_produktu, nazwa, cena from PRODUKTY;
 
 INSERT  /* +APPEND*/ INTO HUR_STANOWISKA(ID_STANOWISKA, NAZWA, PENSJA)
 SELECT * from STANOWISKA;
 
-INSERT  /* +APPEND*/ INTO HUR_PRACOWNICY(id_pracownika, imie, nazwisko, pesel, id_stanowiska)
-SELECT ID_PRACOWNIKA,imie,NAZWISKO,PESEL,ID_STANOWISKA from PRACOWNICY;
+INSERT  /* +APPEND*/ INTO HUR_PRACOWNICY(id_pracownika, imie, nazwisko, pesel)
+SELECT ID_PRACOWNIKA,imie,NAZWISKO,PESEL from PRACOWNICY;
 
 INSERT  /* +APPEND*/ INTO HUR_BRANZE(id_branzy, nazwa)
 SELECT * from BRANZE;
 
-INSERT  /* +APPEND*/ INTO HUR_FIRMY_KUPUJACE(ID_FIRMY_KUPUJACEJ, NAZWA, NIP, REGON, ID_BRANZY)
-SELECT * from FIRMY_KUPUJACE;
+INSERT  /* +APPEND*/ INTO HUR_FIRMY_KUPUJACE(ID_FIRMY_KUPUJACEJ, NAZWA, NIP, REGON)
+SELECT id_firmy_kupujacej, nazwa, nip, regon from FIRMY_KUPUJACE;
 
 INSERT  /* +APPEND*/ INTO HUR_WOJEWODZTWA(id_wojewodztwa, nazwa)
 SELECT * from WOJEWODZTWA;
 
-INSERT  /* +APPEND*/ INTO HUR_ULICE(id_ulicy, nazwa)
-SELECT * from ULICE;
+INSERT  /* +APPEND*/ INTO HUR_HURTOWNIE(id_hurtowni, nazwa)
+SELECT ID_HURTOWNI,NAZWA from HURTOWNIE;
 
-INSERT  /* +APPEND*/ INTO HUR_MIASTA(id_miasta, nazwa, id_wojewodztwa)
-SELECT * from MIASTA;
-
-INSERT  /* +APPEND*/ INTO HUR_HURTOWNIE(id_hurtowni, nazwa, kod_pocztowy, numer_budynku, id_miasta, id_ulicy)
-SELECT ID_HURTOWNI,NAZWA,KOD_POCZTOWY,NUMER_BUDYNKU,ID_MIASTA,ID_ULICY from HURTOWNIE;
-
-INSERT  /* +APPEND*/ INTO HUR_PRZYCZYNY_ZWROTU(id_przyczyny_zwrotu, nazwa)
-SELECT * from PRZYCZYNY_ZWROTOW;
-
-INSERT INTO HUR_TYP_OPRTACJI values (1,'zwrot');
-INSERT INTO HUR_TYP_OPRTACJI values (2,'zakup');
 
 CREATE SEQUENCE seq_id
   START WITH 1
   INCREMENT BY 1;
 
-INSERT  /* +APPEND*/ INTO HUR_OPERACJE(id_operacji, dzien, miesiac, rok, id_przyczyny_zwrotu, id_firmy_kupujacej, id_pracownika, id_produktu, id_typu_operacji, id_hurtowni)
-select seq_id.nextval,
-       EXTRACT(day from sp.DATA),
-       EXTRACT(month from sp.DATA),
-       EXTRACT(year from sp.DATA),
-       null,
-       sp.ID_FIRMY_KUPUJACEJ,
-       sp.ID_PRACOWNIKA,
-       do.ID_PRODUKTU,
-       2,
-       do.ID_HURTOWNI
-
-from SPRZEDAZE sp,DOSTEPNOSCI do
-where sp.ID_DOSTEPNOSCI=do.ID_DOSTEPNOSCI;
-
-INSERT  /* +APPEND*/ INTO HUR_OPERACJE(id_operacji, dzien, miesiac, rok, id_przyczyny_zwrotu, id_firmy_kupujacej, id_pracownika, id_produktu, id_typu_operacji, id_hurtowni)
-select seq_id.nextval,
-       EXTRACT(day from zw.DATA),
-       EXTRACT(month from zw.DATA),
-       EXTRACT(year from zw.DATA),
-       zw.ID_PRZYCZYNY_ZWROTU,
-       sp.ID_FIRMY_KUPUJACEJ,
-       sp.ID_PRACOWNIKA,
-       do.ID_PRODUKTU,
-       1,
-       do.ID_HURTOWNI
-
-from SPRZEDAZE sp,DOSTEPNOSCI do,ZWROTY zw, PRZYCZYNY_ZWROTOW pzw
-where sp.ID_DOSTEPNOSCI=do.ID_DOSTEPNOSCI
-and zw.ID_SPRZEDAZY=sp.ID_SPRZEDAZY
-and pzw.ID_PRZYCZYNY_ZWROTU = zw.ID_PRZYCZYNY_ZWROTU;
+INSERT  /* +APPEND*/ INTO HUR_SPRZEDAZ(ID_SPRZEDAZY, dzien, miesiac, rok, id_firmy_kupujacej, id_pracownika, id_produktu, id_hurtowni,ID_BRANZY,ID_STANOWISKA,ID_WOJEWODZTWA,ID_TYPU_PRODUKTU)
+select
+    seq_id.nextval,
+    EXTRACT(day from sp.data),
+    EXTRACT(month from sp.data),
+    EXTRACT(year from sp.data),
+    sp.ID_FIRMY_KUPUJACEJ,
+    sp.ID_PRACOWNIKA,
+    do.ID_PRODUKTU,
+    do.ID_HURTOWNI,
+    fk.ID_BRANZY,
+    pr.ID_STANOWISKA,
+    mi.ID_WOJEWODZTWA,
+    pro.ID_TYPU_PRODUKTU
+from SPRZEDAZE sp
+join DOSTEPNOSCI do
+on do.ID_DOSTEPNOSCI = sp.ID_DOSTEPNOSCI
+join FIRMY_KUPUJACE fk
+on fk.ID_FIRMY_KUPUJACEJ=sp.ID_FIRMY_KUPUJACEJ
+join PRACOWNICY pr
+on pr.ID_PRACOWNIKA = sp.ID_PRACOWNIKA
+join HURTOWNIE hu
+on hu.ID_HURTOWNI = do.ID_HURTOWNI
+join MIASTA mi
+on mi.ID_MIASTA = hu.ID_MIASTA
+join PRODUKTY pro
+on pro.ID_PRODUKTU = do.ID_PRODUKTU;
 
 drop sequence seq_id;
 commit;
