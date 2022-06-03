@@ -1,0 +1,9 @@
+LOAD DATA
+INFILE 'dane_csv\Modele.csv'
+INSERT INTO TABLE Modele
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(
+id_modelu,
+nazwa
+)

@@ -1,9 +1,0 @@
-LOAD DATA
-INFILE 'Wojewodztwa.csv'
-INSERT INTO TABLE Wojewodztwa
-FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
-TRAILING NULLCOLS
-(
-id_wojewodztwa,
-nazwa
-)

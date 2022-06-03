@@ -1,0 +1,9 @@
+LOAD DATA
+INFILE 'dane_csv\Branze.csv'
+INSERT INTO TABLE Branze
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(
+id_branzy,
+nazwa
+)
